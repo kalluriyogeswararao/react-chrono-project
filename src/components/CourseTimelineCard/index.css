@@ -1,0 +1,52 @@
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.course-title {
+  font-size: 22px;
+  font-family: 'roboto';
+  color: #171f46;
+}
+
+.duration {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #171f46;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.all-courses {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.each-course {
+  padding: 20px;
+}
+
+.course-name {
+  background-color: #ccefff;
+  color: #171f46;
+  font-weight: 600;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.duration-container {
+  display: flex;
+  align-items: center;
+}
